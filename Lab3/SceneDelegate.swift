@@ -22,7 +22,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         
         let windowScene = UIWindowScene(session: session, connectionOptions: connectionOptions)
         self.window = UIWindow(windowScene: windowScene)
-        self.window?.rootViewController = WalkthroughVC()
+        self.window?.rootViewController = TableVC()
         self.window?.makeKeyAndVisible()
         guard let _ = (scene as? UIWindowScene) else { return }
     }
